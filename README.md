@@ -4,7 +4,8 @@ git add .
 git commit -m "日志"
 
 git用户密码更改：
-git config user.name/git config --global user.name
+git config user.name/git config --global user.name 
+| 
 git config user.email/git config --global user.email
 
 
