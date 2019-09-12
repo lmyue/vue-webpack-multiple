@@ -1,21 +1,18 @@
-# multiple
+git init
 
-> A Vue.js project
+git add .
+git commit -m "日志"
 
-## Build Setup
+git用户密码更改：
+git config user.name/git config --global user.name
+git config user.email/git config --global user.email
 
-``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+如果远程仓库信息有误，则删除本地仓库配置，并且设置相关地址
 
-# build for production with minification
-npm run build
+git remote rm origin
+git remote add origin XXXX
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+上传：
+git push -u origin master
